@@ -39,7 +39,7 @@ const CONFIG = {
           title: 'NYT Comments Training Model',
           description:
             'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment’, by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Naive Bayes Classification.',
-          imageUrl: <img src="nyt.jpg">,
+          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
         {
@@ -47,7 +47,7 @@ const CONFIG = {
           description:
             'Maintained and updated the volunteer portal of a non-profit dental clinic. Made mobile friendly and increased brand alignment by through changes to navigation, responsive mobile only hamburger menu, and an organization relevant color scheme.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://ibb.co/k0XD4LR',
           link: 'https://mysmile.vercel.app/',
         },
         {

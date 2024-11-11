@@ -40,7 +40,7 @@ const CONFIG = {
           description:
             'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment’, by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Naive Bayes Classification.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            '<img src="nyt.jpg">',
           link: 'https://example.com',
         },
         {
@@ -129,7 +129,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of North Carolina at Chapel Hill',
-      degree: 'Bachelors in Computer Science & Information Science B.S.',
+      degree: 'Bachelors in Computer Science & Information Science',
       from: '2020',
       to: '2024',
     },

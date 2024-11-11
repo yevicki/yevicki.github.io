@@ -50,6 +50,14 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://mysmile.vercel.app/',
         },
+        {
+          title: 'Light Up',
+          description:
+            'Maintained and updated the volunteer portal of a non-profit dental clinic. Made mobile friendly and increased brand alignment by through changes to navigation, responsive mobile only hamburger menu, and an organization relevant color scheme.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://youtu.be/b2Soz5wTgdc?si=G8iLxqe9-VsNn_QU',
+        },
       ],
     },
   },

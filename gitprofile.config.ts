@@ -39,8 +39,7 @@ const CONFIG = {
           title: 'NYT Comments Training Model',
           description:
             'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment’, by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Naive Bayes Classification.',
-          imageUrl:
-            '<img src="nyt.jpg">',
+          imageUrl: <img src="nyt.jpg">,
           link: 'https://example.com',
         },
         {

@@ -38,7 +38,7 @@ const CONFIG = {
         {
           title: 'NYT Comments Training Model',
           description:
-            'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment’, by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Na¨ ıve Bayes Classification.',
+            'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment’, by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Naive Bayes Classification.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -112,7 +112,7 @@ const CONFIG = {
     },
     {
       company: 'Juni Learning',
-      position: 'Position',
+      position: 'Computer Science Instructor',
       from: 'May 2022',
       to: 'February 2023',
       companyLink: 'https://JuniLearning.com',
@@ -129,7 +129,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of North Carolina at Chapel Hill',
-      degree: 'Information Science, Computer Science',
+      degree: 'Bachelors in Computer Science & Information Science B.S.',
       from: '2020',
       to: '2024',
     },

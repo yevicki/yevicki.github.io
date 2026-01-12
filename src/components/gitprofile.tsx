@@ -17,9 +17,8 @@ import HeadTagEditor from './head-tag-editor';
 import { DEFAULT_THEMES } from '../constants/default-themes';
 import ThemeChanger from './theme-changer';
 import { BG_COLOR } from '../constants';
-import AvatarCard from './avatar-card';
+import ProfileCard from './profile-card';
 import { Profile } from '../interfaces/profile';
-import DetailsCard from './details-card';
 import SkillCard from './skill-card';
 import ExperienceCard from './experience-card';
 import EducationCard from './education-card';
@@ -206,17 +205,14 @@ const GitProfile = ({ config }: { config: Config }) => {
                         themeConfig={sanitizedConfig.themeConfig}
                       />
                     )}
-                    <AvatarCard
+                    <ProfileCard
                       profile={profile}
                       loading={loading}
                       avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                       resumeFileUrl={sanitizedConfig.resume.fileUrl}
-                    />
-                    <DetailsCard
-                      profile={profile}
-                      loading={loading}
                       github={sanitizedConfig.github}
                       social={sanitizedConfig.social}
+                      headerImage={(sanitizedConfig as SanitizedConfig).headerImage}
                     />
                     {sanitizedConfig.skills.length !== 0 && (
                       <SkillCard

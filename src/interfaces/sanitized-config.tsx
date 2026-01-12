@@ -42,6 +42,13 @@ export interface SanitizedSEO {
   imageURL?: string;
 }
 
+export interface SanitizedHeaderImage {
+  imageURL?: string;
+  alt?: string;
+  height?: string;
+  display?: boolean;
+}
+
 export interface SanitizedSocial {
   linkedin?: string;
   twitter?: string;
@@ -139,6 +146,7 @@ export interface SanitizedConfig {
   github: SanitizedGithub;
   projects: SanitizedProjects;
   seo: SanitizedSEO;
+  headerImage?: SanitizedHeaderImage;
   social: SanitizedSocial;
   resume: SanitizedResume;
   skills: Array<string>;

@@ -66,6 +66,12 @@ const CONFIG = {
     description: '',
     imageURL: '',
   },
+  headerImage: {
+    imageURL: '/images/header.jpg',
+    alt: 'My background image',
+    height: '180px',
+    display: true,
+  },
   social: {
     linkedin: 'yevicki',
     instagram: '',
@@ -78,29 +84,25 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
+    website: 'yevicki.github.io',
     phone: '',
     email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
     'Python',
-    'Typescript',
-    'JavaScript',
+    'C',
     'HTML/CSS',
-    'MySQL',
-    'Angular',
-    'FastAPI',
-    'React.js',
+    'JavaScript/TypeScript',
+    'SQL',
+    'Flask',
+    'Git/GitHub',
+    'Bitbucket',
     'Node.js',
-    'SQLAcademy',
-    'Git',
-    'Docker',
-    'Adobe XD/Figma',
   ],
   experiences: [
     {
@@ -109,6 +111,13 @@ const CONFIG = {
       from: 'July 2024',
       to: 'Present',
       companyLink: 'https://BankOfAmerica.com',
+    },
+    {
+      company: 'Harvard CS50x Introduction to Computer Science',
+      position: 'Computer Science Tutor',
+      from: 'May 2025',
+      to: 'January 2026',
+      companyLink: 'https://cs50.harvard.edu/x/',
     },
     {
       company: 'Bank of America',
@@ -122,8 +131,15 @@ const CONFIG = {
       position: 'Computer Science Instructor',
       from: 'May 2022',
       to: 'February 2023',
-      companyLink: 'https://JuniLearning.com',
+      companyLink: 'https://www.linkedin.com/company/juni-learning/',
     },
+    {
+      company: 'University of North Carolina at Chapel Hill',
+      position: 'Computer Science and Information Science Student',
+      from: 'August 2020',
+      to: 'May 2024',
+      companyLink: 'https://www.unc.edu/',
+    }
   ],
   // certifications: [
   //   {
@@ -133,14 +149,20 @@ const CONFIG = {
   //     link: 'https://example.com',
   //   },
   // ],
-  educations: [
-    {
-      institution: 'University of North Carolina at Chapel Hill',
-      degree: 'Bachelors in Computer Science & Information Science',
-      from: '2020',
-      to: '2024',
-    },
-  ],
+  // educations: [
+  //   {
+  //     institution: 'University of North Carolina at Chapel Hill',
+  //     degree: 'Bachelors in Computer Science',
+  //     from: '2020',
+  //     to: '2024'
+  //   },
+  //   {
+  //     institution: 'School of Information and Library Science, University of North Carolina at Chapel Hill',
+  //     degree: 'Bachelors in Information Science',
+  //     from: '2022',
+  //     to: '2024'
+  //   },
+  // ],
   // publications: [
   //   {
   //     title: 'Publication Title',
@@ -162,11 +184,11 @@ const CONFIG = {
   //   },
   // ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many articles to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -176,55 +198,20 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'cupcake',
 
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
+    // Hides the switch in the navbar — only cupcake will be used
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: true,
+    respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'cupcake',
-      // 'bumblebee',
-      // 'emerald',
-      // 'corporate',
-      // 'synthwave',
-      // 'retro',
-      // 'cyberpunk',
-      'autumn',
-      'winter',
-      'valentine',
-      'halloween',
-      // 'garden',
-      // 'forest',
-      // 'aqua',
-      // 'lofi',
-      // 'pastel',
-      // 'fantasy',
-      // 'wireframe',
-      // 'black',
-      // 'luxury',
-      // 'dracula',
-      // 'cmyk',
-      'business',
-      // 'acid',
-      // 'lemonade',
-      // 'night',
-      // 'coffee',
-      // 'dim',
-      // 'nord',
-      // 'sunset',
-      // 'procyon',
-    ],
+    // Available themes. Restrict to only 'cupcake'.
+    themes: ['cupcake'],
 
     // Custom theme, applied to `procyon` theme
     customTheme: {
@@ -243,7 +230,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/yevicki"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a>`,
 
   enablePWA: true,
 };

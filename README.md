@@ -1,19 +1,16 @@
 # Portfolio — Vicki Ye
 
-Welcome! This repository contains the source code for my personal website: yevicki.github.io
+Welcome! This repository contains the source code for my personal website: [yevicki.github.io](https://yevicki.github.io).
 
 ## Introduction
 On my personal website find technical portfolio of all the projects I've worked on over the years, along with my academic and career expierences. 
 
-## Key files & structure 🔍
-- `gitprofile.config.ts` — Repository-level configuration (profile, socials, header image, projects, and feature flags).
-- `src/components/profile-card/` — Top profile component (avatar, name, socials, optional header background).
-- `src/components/gitprofile.tsx` — Main layout and page composition — mounts profile, projects, and content sections.
-- `src/components/*-card/` — Reusable UI cards (projects, experience, education, certifications).
-- `src/utils/` — Helper utilities and configuration sanitizers (data fetching, formatting, and config mapping).
-- `src/components/lazy-image/` — Lightweight lazy-loading image component used for avatars and headers.
-- `public/` — Static assets served at root (place local images in `public/images/` and reference them as `/images/<name>`).
-- `README.md` — Project overview, setup, and customization instructions.
+## Key Sections
+- `Profile Card`  Overview featuring GitHub profile photo, name, and links to GitHub, LinkedIn, and portfolio website.
+- `Tech Stack`  Core programming languages and software tools. Additional technologies are listed within their respective project descriptions.
+- `Experience` Comprehensive timeline of technical experience from initial programming coursework through present day. 
+- `Github Projects` Direct links to source code repositories for personal projects.
+- `Projects` Portfolio of work created for skill development, academic assignments, and practical solutions to everyday challenges.
 
 ## Technologies Used
 - `Vite` development server & build tool

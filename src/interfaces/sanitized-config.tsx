@@ -24,6 +24,7 @@ export interface SanitizedExternalProject {
   description?: string;
   imageUrl?: string;
   link: string;
+  techStack?: string;
 }
 
 export interface SanitizedExternalProjects {

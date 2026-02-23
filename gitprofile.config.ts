@@ -8,7 +8,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Github Repositories', 
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -20,7 +20,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        // projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -30,17 +30,26 @@ const CONFIG = {
         {
           title: 'Android Story Generator',
           description:
-            'Android app integrating image capture, custom drawing, automated tagging, and story generation. Features an interactive UI of camera and sketching. Automaed image tagging and creative story generation based on image content with 85% accuracy.',
+            'Developed an Android app integrating image capture, custom drawing, automated tagging, and story generation. Implemented an interactive UI of camera and sketch drawing features with save, clear, and find button options. Automated image tagging and creative story generation based on image content with 85% accuracy',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          techStack: 'Java, XML, Google Cloud Vision API, TextCortex API, SQLite',
+        },
+        {
+          title: 'Light Up',
+          description:
+            'Recreated a GUI of a binary determination logic puzzle, often known as Light Up or Akari. Programmed logic methods to create informative hint tiles, user control tiles, and a library of external puzzles. Programmed responsive application to respond to user behavior in real time',
+          imageUrl:
+            '/images/light-up.png',
+          link: 'https://youtu.be/b2Soz5wTgdc?si=G8iLxqe9-VsNn_QU',
+          techStack: 'Java, JavaFX, CSS',
         },
         {
           title: 'NYT Comments Training Model',
           description:
-            'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment’, by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Naive Bayes Classification.',
-          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Trained sentiment analysis model to determine whether a New York Times comment would be chosen as an ‘Editors’ Choice Comment,’ by identifying relevant text features and using testing data from Kaggle.com. Achieved a realistic accuracy of 78% when trained on two-word pairs and Naive Bayes Classification.',
+          imageUrl: '/images/nyt.jpg',
+          techStack: 'Predictive Sentiment Analysis, LightSIDE, Excel',
         },
         {
           title: 'Wake Smiles Volunteer Portal',
@@ -49,14 +58,7 @@ const CONFIG = {
           imageUrl:
             'https://ibb.co/k0XD4LR',
           link: 'https://mysmile.vercel.app/',
-        },
-        {
-          title: 'Light Up',
-          description:
-            'Maintained and updated the volunteer portal of a non-profit dental clinic. Made mobile friendly and increased brand alignment by through changes to navigation, responsive mobile only hamburger menu, and an organization relevant color scheme.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://youtu.be/b2Soz5wTgdc?si=G8iLxqe9-VsNn_QU',
+          techStack: 'JavaScript, TypeScript, ReactJS, Vercel, Supabase',
         },
       ],
     },
@@ -64,7 +66,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Vicki Ye',
     description: '',
-    imageURL: '',
+    imageURL: '/images/logo.png',
   },
   headerImage: {
     imageURL: '/images/header.jpg',
@@ -107,9 +109,16 @@ const CONFIG = {
   experiences: [
     {
       company: 'Bank of America',
+      position: 'Software Engineer 2',
+      from: 'Jan 2026',
+      to: 'Present',
+      companyLink: 'https://BankOfAmerica.com',
+    },    
+    {
+      company: 'Bank of America',
       position: 'Software Engineer',
       from: 'July 2024',
-      to: 'Present',
+      to: 'Jan 2026',
       companyLink: 'https://BankOfAmerica.com',
     },
     {
@@ -121,7 +130,7 @@ const CONFIG = {
     },
     {
       company: 'Bank of America',
-      position: 'Data Management Analyst, Software Developer Intern',
+      position: 'Software Engineer Intern',
       from: 'June 2023',
       to: 'August 2023',
       companyLink: 'https://BankOfAmerica.com',
@@ -226,11 +235,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/yevicki"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a>`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/yevicki"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a>`,
 
   enablePWA: true,
 };

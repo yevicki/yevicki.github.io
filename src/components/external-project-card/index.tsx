@@ -111,9 +111,14 @@ const ExternalProjectCard = ({
                       </div>
                     </div>
                   )}
-                  <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
+                  <p className="mt-2 text-base-content text-opacity-60 text-sm whitespace-pre-wrap text-left">
                     {item.description}
                   </p>
+                  {item.techStack && (
+                    <p className="mt-3 text-base-content text-opacity-70 text-sm italic">
+                      {item.techStack}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>

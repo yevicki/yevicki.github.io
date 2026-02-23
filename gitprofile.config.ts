@@ -48,7 +48,7 @@ const CONFIG = {
           description:
             'Maintained and updated the volunteer portal of a non-profit dental clinic. Made mobile friendly and increased brand alignment by through changes to navigation, responsive mobile only hamburger menu, and an organization relevant color scheme.',
           imageUrl:
-            'https://ibb.co/k0XD4LR',
+            '/images/wake-smiles.png',
           link: 'https://mysmile.vercel.app/',
           techStack: 'JavaScript, TypeScript, ReactJS, Vercel, Supabase',
         },

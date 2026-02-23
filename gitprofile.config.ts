@@ -28,17 +28,9 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Android Story Generator',
-          description:
-            'Developed an Android app integrating image capture, custom drawing, automated tagging, and story generation. Implemented an interactive UI of camera and sketch drawing features with save, clear, and find button options. Automated image tagging and creative story generation based on image content with 85% accuracy',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          techStack: 'Java, XML, Google Cloud Vision API, TextCortex API, SQLite',
-        },
-        {
           title: 'Light Up',
           description:
-            'Recreated a GUI of a binary determination logic puzzle, often known as Light Up or Akari. Programmed logic methods to create informative hint tiles, user control tiles, and a library of external puzzles. Programmed responsive application to respond to user behavior in real time',
+            'Recreated a GUI of a binary determination logic puzzle, often known as Light Up or Akari. Programmed logic methods to create informative hint tiles, user control tiles, and a library of external puzzles. Programmed responsive application to respond to user behavior in real time.',
           imageUrl:
             '/images/light-up.png',
           link: 'https://youtu.be/b2Soz5wTgdc?si=G8iLxqe9-VsNn_QU',
@@ -59,6 +51,14 @@ const CONFIG = {
             'https://ibb.co/k0XD4LR',
           link: 'https://mysmile.vercel.app/',
           techStack: 'JavaScript, TypeScript, ReactJS, Vercel, Supabase',
+        },
+        {
+          title: 'Android Story Generator',
+          description:
+            'Developed an Android app integrating image capture, custom drawing, automated tagging, and story generation. Implemented an interactive UI of camera and sketch drawing features with save, clear, and find button options. Automated image tagging and creative story generation based on image content with 85% accuracy.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          techStack: 'Java, XML, Google Cloud Vision API, TextCortex API, SQLite',
         },
       ],
     },
@@ -101,6 +101,7 @@ const CONFIG = {
     'HTML/CSS',
     'JavaScript/TypeScript',
     'SQL',
+    'Spring Boot',
     'Flask',
     'Git/GitHub',
     'Bitbucket',
